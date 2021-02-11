@@ -25,8 +25,12 @@ namespace dotnet_parallel
             //CancellingTasks.MonitoringCancelation();
             #endregion
 
-            #region
-            WaitingTimeToPass.Wait();
+            #region WaitingTimeToPass
+            // WaitingTimeToPass.Wait();
+            #endregion
+
+            #region WatingForTasks
+            WatingForTasks.Wait();
             #endregion
 
             Console.WriteLine("the program done");
