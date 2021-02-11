@@ -19,6 +19,12 @@ namespace dotnet_parallel
 
             #endregion
 
+            #region CancellingTasks
+            CancellingTasks.CancelableTasks();
+            CancellingTasks.CompositeCancellationToken();
+            CancellingTasks.MonitoringCancelation();
+            #endregion
+
             Console.WriteLine("the program done");
             Console.ReadKey();
         }
