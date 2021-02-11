@@ -30,7 +30,12 @@ namespace dotnet_parallel
             #endregion
 
             #region WatingForTasks
-            WatingForTasks.Wait();
+            // WatingForTasks.Wait();
+            #endregion
+
+            #region ExceptionHandling
+            ExceptionHandling.BasicHandling();
+            ExceptionHandling.IterativeHandling();
             #endregion
 
             Console.WriteLine("the program done");
