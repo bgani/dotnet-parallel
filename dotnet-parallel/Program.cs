@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Threading.Tasks;
+using dotnet_parallel.PracticingTasks;
+
 
 namespace dotnet_parallel
 {
@@ -6,7 +9,18 @@ namespace dotnet_parallel
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            #region CreatingAndStartingTasks 
+
+            //CreatingAndStartingTasks.SimpleTasks();
+
+            //CreatingAndStartingTasks.TasksWithState();
+
+            //CreatingAndStartingTasks.TasksWithReturnValues();
+
+            #endregion
+
+            Console.WriteLine("the program done");
+            Console.ReadKey();
         }
     }
 }
