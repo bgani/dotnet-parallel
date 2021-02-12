@@ -30,7 +30,10 @@ namespace dotnet_parallel
             #endregion
 
             #region Data Sharing and Synchronization
-            CriticalSections.Test();
+            // CriticalSections.Test();
+            // SpinLockinigAndLockRecursion.TestSpinLock();
+            SpinLockinigAndLockRecursion.TestLockRecutsion();
+
 
             #endregion
 
