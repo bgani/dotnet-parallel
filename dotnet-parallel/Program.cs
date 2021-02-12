@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using dotnet_parallel.PracticingTasks;
+using dotnet_parallel.DataSharingAndSynchronization;
 
 
 namespace dotnet_parallel
@@ -9,34 +10,30 @@ namespace dotnet_parallel
     {
         static void Main(string[] args)
         {
-            #region CreatingAndStartingTasks 
+            #region Practicing Tasks 
 
             //CreatingAndStartingTasks.SimpleTasks();
-
             //CreatingAndStartingTasks.TasksWithState();
-
             //CreatingAndStartingTasks.TasksWithReturnValues();
 
-            #endregion
-
-            #region CancellingTasks
             //CancellingTasks.CancelableTasks();
             //CancellingTasks.CompositeCancellationToken();
             //CancellingTasks.MonitoringCancelation();
-            #endregion
 
-            #region WaitingTimeToPass
             // WaitingTimeToPass.Wait();
-            #endregion
 
-            #region WatingForTasks
             // WatingForTasks.Wait();
+
+            //ExceptionHandling.BasicHandling();
+            //ExceptionHandling.IterativeHandling();
+
             #endregion
 
-            #region ExceptionHandling
-            ExceptionHandling.BasicHandling();
-            ExceptionHandling.IterativeHandling();
+            #region Data Sharing and Synchronization
+            CriticalSections.Test();
+
             #endregion
+
 
             Console.WriteLine("the program done");
             Console.ReadKey();
