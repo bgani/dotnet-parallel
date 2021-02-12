@@ -20,7 +20,7 @@ namespace dotnet_parallel.DataSharingAndSynchronization
             // Deposit and Withdraw operations are not atomic, e.g. 
             // +=
             // operation1: temp <- getBalance() + amount
-            // if we won't use lock something might happen between those opertion1 and opertion2, which can mess up the result
+            // if we won't use lock something might happen between opertion1 and opertion2, which can mess up the result
             // operation2: setBalance(temp)
             // if we won't use lock, the value of the balance will be different on each execution of the program
             public void Deposit(int amount)
