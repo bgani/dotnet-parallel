@@ -35,6 +35,7 @@ namespace dotnet_parallel.DataSharingAndSynchronization
             var ba = new BankAccount();
             var ba2 = new BankAccount();
 
+            // Mutex = mutual exclusion
             Mutex mutex = new Mutex();
             Mutex mutex2 = new Mutex();
 

@@ -33,8 +33,9 @@ namespace dotnet_parallel
             // CriticalSections.Test();
             // SpinLockinigAndLockRecursion.TestSpinLock();
             // SpinLockinigAndLockRecursion.TestLockRecutsion();
-            //TestingMutex.LocalMutex();
-            TestingMutex.GlobalMutex();
+            // TestingMutex.LocalMutex();
+            // TestingMutex.GlobalMutex();
+            ReaderWriterLocks.Test();
             #endregion
 
 
