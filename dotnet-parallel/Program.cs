@@ -32,10 +32,12 @@ namespace dotnet_parallel
             #region Data Sharing and Synchronization
             // CriticalSections.Test();
             // SpinLockinigAndLockRecursion.TestSpinLock();
-            SpinLockinigAndLockRecursion.TestLockRecutsion();
-
-
+            // SpinLockinigAndLockRecursion.TestLockRecutsion();
+            //TestingMutex.LocalMutex();
+            TestingMutex.GlobalMutex();
             #endregion
+
+
 
 
             Console.WriteLine("the program done");

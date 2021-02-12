@@ -97,6 +97,7 @@ namespace dotnet_parallel.DataSharingAndSynchronization
         // true = exception, false = deadlock
         static SpinLock sl = new SpinLock(true);
 
+
         // if we already took a lock on something then taking another lock might not be possible
         private static void LockRecursion(int x)
         {
