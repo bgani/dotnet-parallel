@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using dotnet_parallel.PracticingTasks;
 using dotnet_parallel.DataSharingAndSynchronization;
+using dotnet_parallel.ConcurrentCollections;
 
 
 namespace dotnet_parallel
@@ -35,8 +36,12 @@ namespace dotnet_parallel
             // SpinLockinigAndLockRecursion.TestLockRecutsion();
             // TestingMutex.LocalMutex();
             // TestingMutex.GlobalMutex();
-            ReaderWriterLocks.Test();
+            // ReaderWriterLocks.Test();
             #endregion
+
+            #region Concurrent Collections
+            ConcurrentDictionaryDemo.Test();
+            #endregion 
 
 
 
