@@ -41,7 +41,8 @@ namespace dotnet_parallel
 
             #region Concurrent Collections
             // ConcurrentDictionaryDemo.Test();
-            ConcurrentQueueDemo.Test();
+            // ConcurrentQueueDemo.Test();
+            ConcurrentStackDemo.Test();
 
             #endregion 
 
