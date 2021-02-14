@@ -54,7 +54,9 @@ namespace dotnet_parallel
 
             // ChildTasksDemo.Test();
 
-            BarrierDemo.Test();
+            // BarrierDemo.Test();
+
+            CountdownEventDemo.Test();
             #endregion
 
 
