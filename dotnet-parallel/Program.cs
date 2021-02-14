@@ -52,7 +52,9 @@ namespace dotnet_parallel
             // ContinuationsDemo.SimpleContinuation();
             // ContinuationsDemo.ContinueWhen();
 
-            ChildTasksDemo.Test();
+            // ChildTasksDemo.Test();
+
+            BarrierDemo.Test();
             #endregion
 
 
