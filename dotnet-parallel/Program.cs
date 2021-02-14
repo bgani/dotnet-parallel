@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using dotnet_parallel.PracticingTasks;
 using dotnet_parallel.DataSharingAndSynchronization;
 using dotnet_parallel.ConcurrentCollections;
+using dotnet_parallel.TaskCoordination;
 
 
 namespace dotnet_parallel
@@ -44,10 +45,13 @@ namespace dotnet_parallel
             // ConcurrentQueueDemo.Test();
             // ConcurrentStackDemo.Test();
             // ConcurrentBagDemo.Test();
-            BlockingCollectionDemo.Test();
+            // BlockingCollectionDemo.Test();
+            #endregion
 
-            #endregion 
-
+            #region
+            ContinuationsDemo.SimpleContinuation();
+            ContinuationsDemo.ContinueWhen();
+            #endregion
 
 
 
