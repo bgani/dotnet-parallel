@@ -49,8 +49,10 @@ namespace dotnet_parallel
             #endregion
 
             #region
-            ContinuationsDemo.SimpleContinuation();
-            ContinuationsDemo.ContinueWhen();
+            // ContinuationsDemo.SimpleContinuation();
+            // ContinuationsDemo.ContinueWhen();
+
+            ChildTasksDemo.Test();
             #endregion
 
 
