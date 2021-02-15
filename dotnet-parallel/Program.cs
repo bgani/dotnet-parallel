@@ -58,8 +58,10 @@ namespace dotnet_parallel
 
             // CountdownEventDemo.Test();
 
-            ResetEventsDemo.Manual();
-            ResetEventsDemo.Auto();
+            // ResetEventsDemo.Manual();
+            // ResetEventsDemo.Auto();
+
+            SmeaphoreSlimDemo.Test();
             #endregion
 
 
