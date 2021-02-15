@@ -56,7 +56,10 @@ namespace dotnet_parallel
 
             // BarrierDemo.Test();
 
-            CountdownEventDemo.Test();
+            // CountdownEventDemo.Test();
+
+            ResetEventsDemo.Manual();
+            ResetEventsDemo.Auto();
             #endregion
 
 
