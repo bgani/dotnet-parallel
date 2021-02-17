@@ -68,8 +68,9 @@ namespace dotnet_parallel
             #region Parallel Loops
             // ParallelLoopsDemo.Test();
 
-            BreakingCancellationAndExceptionDemo.Test();
+            // BreakingCancellationAndExceptionDemo.Test();
 
+            ThreadLocalStorageDemo.Test();
             #endregion
 
 
