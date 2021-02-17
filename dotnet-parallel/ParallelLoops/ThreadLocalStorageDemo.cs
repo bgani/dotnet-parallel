@@ -33,5 +33,13 @@ namespace dotnet_parallel.ParallelLoops
                 });
             Console.WriteLine($"Sum of 1..100 = {sum}");
         }
+
+        // Summary 
+        // writing to a shared variable from many tasks is inefficient
+        // can store partially evaluated results for ech task
+        // can specify a function to integrate partial results into final results
+
     }
+
+
 }

@@ -49,5 +49,9 @@ namespace dotnet_parallel.ParallelLoops
              }
             });
         }
+
+        // Summary
+        // data is split into chunks by a partitioner
+        // goal: improve performance e.g costly delegate creation calls
     }
 }

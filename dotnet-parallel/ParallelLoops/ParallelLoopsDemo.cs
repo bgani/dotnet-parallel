@@ -8,6 +8,10 @@ using System.Threading.Tasks;
 namespace dotnet_parallel.ParallelLoops
 {
     // Invoke, For, ForEeach examples
+    // parallel loop (Invoke, For, ForEeach) calls are blocking calls. we have to wait until all threads completed or an exception occured
+    // we can check the state of the loop - ParallelLoopState
+    // we can check result of excecution - ParallelLoopResult
+    // we can specify MaxDegreeOfParallelism or provide Cancellation token
     public class ParallelLoopsDemo
     {
         public static void Test()
@@ -53,5 +57,14 @@ namespace dotnet_parallel.ParallelLoops
                 yield return i;
             }
         }
+
+        // Summary
+        // Parallel.For
+        // uses an index[start; finish]
+        // can not provide a step, for custom steps create an Ienumerable<int> and use Paralel.ForEeach
+        // partitions data into different tasks
+        // executes provided delegate with counter value argument, might be inefficient
+        // Parallel.ForEach
+        // takes an IEnumerable<T> 
     }
 }
