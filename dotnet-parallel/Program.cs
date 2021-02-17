@@ -4,6 +4,7 @@ using dotnet_parallel.PracticingTasks;
 using dotnet_parallel.DataSharingAndSynchronization;
 using dotnet_parallel.ConcurrentCollections;
 using dotnet_parallel.TaskCoordination;
+using dotnet_parallel.ParallelLoops;
 
 
 namespace dotnet_parallel
@@ -61,7 +62,12 @@ namespace dotnet_parallel
             // ResetEventsDemo.Manual();
             // ResetEventsDemo.Auto();
 
-            SmeaphoreSlimDemo.Test();
+            //SmeaphoreSlimDemo.Test();
+            #endregion
+
+            #region Parallel Loops
+            ParallelLoopsDemo.Test();
+
             #endregion
 
 
