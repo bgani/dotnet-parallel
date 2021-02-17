@@ -70,7 +70,9 @@ namespace dotnet_parallel
 
             // BreakingCancellationAndExceptionDemo.Test();
 
-            ThreadLocalStorageDemo.Test();
+            // ThreadLocalStorageDemo.Test();
+
+            PartitioningDemo.Test();
             #endregion
 
 
