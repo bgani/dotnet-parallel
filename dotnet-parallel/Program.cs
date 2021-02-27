@@ -80,7 +80,8 @@ namespace dotnet_parallel
 
             //AsParallelDemo.Test();
             //CancellationAndExceptionsDemo.Test();
-            MergeOptions.Test();
+            //MergeOptions.Test();
+            CustomAggregation.Test();
 
             #endregion
 
