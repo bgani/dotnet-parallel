@@ -79,7 +79,8 @@ namespace dotnet_parallel
             #region Parallel Linq
 
             //AsParallelDemo.Test();
-            CancellationAndExceptionsDemo.Test();
+            //CancellationAndExceptionsDemo.Test();
+            MergeOptions.Test();
 
             #endregion
 
