@@ -5,6 +5,7 @@ using dotnet_parallel.DataSharingAndSynchronization;
 using dotnet_parallel.ConcurrentCollections;
 using dotnet_parallel.TaskCoordination;
 using dotnet_parallel.ParallelLoops;
+using dotnet_parallel.ParallelLinq;
 
 
 namespace dotnet_parallel
@@ -49,7 +50,7 @@ namespace dotnet_parallel
             // BlockingCollectionDemo.Test();
             #endregion
 
-            #region
+            #region Task Coordination
             // ContinuationsDemo.SimpleContinuation();
             // ContinuationsDemo.ContinueWhen();
 
@@ -62,7 +63,7 @@ namespace dotnet_parallel
             // ResetEventsDemo.Manual();
             // ResetEventsDemo.Auto();
 
-            //SmeaphoreSlimDemo.Test();
+            // SmeaphoreSlimDemo.Test();
             #endregion
 
             #region Parallel Loops
@@ -72,9 +73,14 @@ namespace dotnet_parallel
 
             // ThreadLocalStorageDemo.Test();
 
-            PartitioningDemo.Test();
+            // PartitioningDemo.Test();
             #endregion
 
+            #region Parallel Linq
+
+            AsParallelDemo.Test();
+
+            #endregion
 
 
             Console.WriteLine("the program done");
