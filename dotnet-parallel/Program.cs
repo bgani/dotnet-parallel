@@ -81,10 +81,9 @@ namespace dotnet_parallel
             //AsParallelDemo.Test();
             //CancellationAndExceptionsDemo.Test();
             //MergeOptions.Test();
-            CustomAggregation.Test();
+            //CustomAggregation.Test();
 
             #endregion
-
 
             Console.WriteLine("the program done");
             Console.ReadKey();
